@@ -14,10 +14,10 @@ const SideMenu = () => {
     >
       <List>
         <ListItem button>
-          <ListItemText primary="功能1" />
+          <ListItemText primary="永驻资格判断" />
         </ListItem>
         <ListItem button>
-          <ListItemText primary="功能2" />
+          <ListItemText primary="材料申请清单check" />
         </ListItem>
         {/* 根据需求添加更多菜单项 */}
       </List>

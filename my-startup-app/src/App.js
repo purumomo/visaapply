@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
+import logo from './logo.svg'; 
 import SideMenu from './component/Sidemenu';
 
 function App() {
@@ -13,7 +10,7 @@ function App() {
         <SideMenu/>
       </div>
       <div className="content">
-        {/* 右侧内容页面组件 */}
+        <img src={logo} alt="React Logo" style={{ height: '40px' }} />
       </div>
     </div>
   );
