@@ -1,0 +1,13 @@
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-menu li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .side-menu li:hover {
+    background-color: #e0e0e0;
+  }
